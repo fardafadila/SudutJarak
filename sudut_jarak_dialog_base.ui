@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SudutJarakDialogBase</class>
+ <widget class="QDialog" name="SudutJarakDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>566</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sudut dan Jarak</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="11" column="10">
+    <widget class="QPushButton" name="plot">
+     <property name="text">
+      <string>Plot!</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="9" colspan="2">
+    <widget class="QLineEdit" name="input_x"/>
+   </item>
+   <item row="5" column="9" colspan="2">
+    <widget class="QComboBox" name="crs">
+     <item>
+      <property name="text">
+       <string>32749</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>23879</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>23835</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>32643</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>32744</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>32645</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>32747</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>32649</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>32749</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>33604</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4326</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="8" column="2">
+    <widget class="QLineEdit" name="input_az"/>
+   </item>
+   <item row="1" column="7">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>X</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3" rowspan="3">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>118</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="7">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="7" colspan="3">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Jarak (m)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="8" colspan="2">
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>47</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="6" colspan="3">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>CRS</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2" colspan="4">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Azimuth dan Jarak</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="9" colspan="2">
+    <widget class="QLineEdit" name="input_y"/>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Az.</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="10">
+    <widget class="QLineEdit" name="input_jarak"/>
+   </item>
+   <item row="6" column="7" colspan="4">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>331</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="2" colspan="3">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Koordinat Awal</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" rowspan="2" colspan="11">
+    <layout class="QHBoxLayout" name="horizontalLayout_2"/>
+   </item>
+   <item row="0" column="3" rowspan="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>77</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="9" column="4" rowspan="2" colspan="7">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QRadioButton" name="perulangan">
+       <property name="text">
+        <string>Perulangan</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="10" column="1">
+    <widget class="QCheckBox" name="plot_garis">
+     <property name="text">
+      <string>CheckBox</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
